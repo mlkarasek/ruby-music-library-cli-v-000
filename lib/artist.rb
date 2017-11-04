@@ -2,7 +2,7 @@ require 'pry'
 
 class Artist
 
-extend Findable
+extend Concrns::Findable
 
 attr_accessor :name
 @@all = []
